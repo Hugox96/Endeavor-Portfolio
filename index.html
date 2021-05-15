@@ -1,0 +1,176 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset = "utf-8">
+
+<!-- Renderiza a versão mais recente do Microsoft Internet Explorer(edge)-->
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!-- Fonte para os icones da página-->
+ <script defer src="fontawesome-free-5.15.2-web/js/all.js"></script> 
+
+ 
+ 
+
+<title> Personal Website </title>
+
+
+<!-- CCS -->
+
+<link rel ="stylesheet" type="text/css" href ="style.css"/>
+
+</head>
+
+<body>
+
+   <!-- Os elementos de uma section são semelhantes em tema e, portanto, podem ser agrupados de forma lógica. 
+   Por exemplo, o site de uma empresa pode ter seções separadas para informações de contato, notícias ou ofertas especiais.
+   Neste caso utilizei para descrever nossos serviços-->
+    <section>
+   
+   
+   <!--navigação------------------------->
+	<nav>
+	
+	<!--logo-->
+	<a href="#" class="logo">Endeavor</a>
+	
+	<!--menu com links-->
+	
+	<!-- <ul> representa uma lista de itens sem ordem rígida, 
+	isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições-->
+	
+	<ul>
+	<li><a href="#">Ínicio</a></li>
+	<li><a href="#">Sobre</a></li>
+	<li><a href="#">Serviços</a></li>
+	<li><a href="#">Equipe</a></li>
+	</ul>
+	
+	<!--bars--------------->
+	<div class="toggle"></div>
+	</nav>
+	
+	<!-- Classe para o texto de apresentação-->
+	<div class = "text-container">
+	<p> Olá, </p>
+	<p> Somos a Endeavor </p> 
+	<p> Desenvolvemos modelos para otimizar e diferenciar seu negócio. </p>
+	<button class ="Conheça-btn"> Conheça-nos </button>
+	<button class ="Contrato-cv"> Contrate-nos </button>
+	</div>
+ 	
+	<!-- Imagem presente no site-->
+	<img alt="logoEndeavor" class="logoEndeavor" src="end2.png">  
+	
+   <!--Fim da section -->	
+	</section>
+		  
+	<!-- Um div para descrever quem somos----->
+	<div class ="about-container"> 
+	<!--Imagem na div Sobre Nós-->
+	<img src="end2.png">
+	
+	<!-- Texto sobre nós --------------->
+	<div class="about-text">
+	<p>Sobre nós</p>
+	<p> Endeavor Soluções </p>
+	<p>Empresa especializada em gerar mais resultados em seu negócio através das estratégias de marketing digital, construação de websites, criação de app e gerenciamento com planillhas</p>
+		
+		<button>Conheça-nos</button>
+		<button>Contrate-nos</button>
+		</div>
+	</div>
+	
+<!-- Container para serviços prestador -->
+<div class="Serviços">
+	
+	<!-- Texto-->
+    <div class ="Serviços-Texto">
+      
+         <p> Nossos Serviços</p>
+	     <p> A Endeavor é planejada para aqueles que desejam otimizar o gerenciamento do seu negócio, 
+	     alcançando mais clientes e melhorando sua divulgação nas redes sociais e na internet. </p>
+    
+	<!-- Fim da div serviços descrição-->
+	</div>		 
+
+<!-- Criando um box para informar nossos serviços-->
+  <div class="box-container">
+	  
+	  <!--Primeiro Box-------------> 
+	  <div class ="box-1">
+	    <span> 1 </span>
+	    <p class="heading"> Criação de Sites </p>
+	    <p class="details">  Ter um site hoje é essencial para divulgar seu negócio na internet, 
+	    tornando-o mais conhecido e destacável. Além de aumentar a divulgação com ferramentas de pesquisa 
+        do google. </p>
+       <button>Conheça</button>
+	 </div>     
+	 <!--Segundo Box------------->
+		<div class="box-2">
+			<span>2</span>
+			<p class="heading">Criação de Planilhas</p>
+			<p class="details"> Planilhas no Excel são muito úteis para gerenciar e otimizar as informações do seu negócio, como por exemplo os itens mais vendidos, controle de estoque, 
+			controle de receita, faturamento.</p>
+			<button>Conheça</button>
+		</div>
+	 <!--Terceiro Box------------->
+		<div class="box-3">
+			<span>3</span>
+			<p class="heading">Gerir redes sociais</p>
+			<p class="details"> As redes sociais hoje são essências, sendo possível fidelizar clientes. Aplicando as ferramentas corretamente, é possível gerar mais trafégo nas páginas
+             e converter novos clientes. </p>
+			<button>Conheça</button>		
+		</div>	
+     
+	 </div>
+</div>	
+	
+	<!-- Texto para entrar em contato-->
+	<div class="contato">
+	  <p> Tem algum projeto em mente ? Fale conosco </p>
+	  <button> Fale Conosco </button>
+	</div>  
+	
+	<!-- Rodapé-->
+<footer>
+	<!--Cabeçalho-->
+    <p> Endeavor </P>
+    <p> Sempre disponível para fazer seu negócio crescer </p>
+		 
+		 <!--Icones das redes sociais -->
+	 <div class="Redes-sociais">
+		  <a href="#"><i class="fab fa-facebook-f"></i></a>
+	      <a href="#"><i class="fab fa-instagram"></i></a> 
+	  </div>
+		 
+		 <p class = "copyright"> Desenvolvido por Hugo Alves </p>
+		 
+</footer>	
+
+        <!--Icones laterais das redes sociais-->
+	<div class="social">
+	  <a href="#"><i class="fab fa-facebook-f"></i></a>
+	  <a href="#"><i class="fab fa-instagram"></i></a>
+	  <a href="#"><i class="fab fa-youtube"></i></a>
+	</div>	
+		 
+
+   <!--JQUery-------------------->
+ <script type="text/javascript" src="js/Query.js"></script>
+    <script type="text/javascript">
+  $(document).ready(function(){
+  $('.toogle').click(function() {
+      $('.toogle').toggleClass('active')
+  $('.nav').toogleClass('active')
+        })
+	}) 
+	
+     </script>
+	</body>
+</html> 
