@@ -74,24 +74,24 @@ nav ul li a{
 .logoEndeavor {
 	height:220px;
 	position:absolute;
-	bottom:360px; /* Quanto maior o valor, mais para cima a imagem ficará*/
+	bottom:348px; /* Quanto maior o valor, mais para cima a imagem ficará*/
 	left: 85%;   /* Quanto menor valor, mais para esquerda a imagem ficará*/  
 	transform: translateX(-150%);
 }
 
-/*Texto Olá do site*/
+/* Editando o Texto Olá do site*/
 .text-container p:nth-child(1){
-	font-family: Calibri;
-	font-weight:bold;
-	color:#403e3e;
-	font-size:30px;
+	font-family: Calibri; /*Modifica a fonte*/
+	font-weight:bold;     /*Negrito*/ 
+	color:#403e3e;       /* Cor da fonte*/
+	font-size:30px;     /*Tamanho da fonte*/
 }
 
-/*Texto Somos a Endeavor*/ 
+/*Editando o Texto Somos a Endeavor*/ 
 .text-container p:nth-child(2){
 	font-family:Calibri;
 	font-weight:bold;
-	letter-spacing:1px;
+	letter-spacing:0.7px; /* Espaçamento entre as letras*/
 	color:#1a1a1a;
 	font-size:40px;
 	}
@@ -113,9 +113,9 @@ nav ul li a{
 
 /*Editando os botões do section*/
 .text-container button{
-	width:120px;
-	height:42px;
-	border-radius:10px;
+	width:120px;           
+	height:42px;          
+	border-radius:10px;  
 	font-family:calibri;
 	font-weight:bold;
 	font-size: 14px;
