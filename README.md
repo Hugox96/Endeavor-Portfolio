@@ -76,6 +76,6 @@ Vejamos um gif abaixo mostrando como ficou:
 ![Alt Text](https://user-images.githubusercontent.com/62472486/118557490-a2f74680-b73b-11eb-9e50-350fe5c9bc5e.gif)
 
 ## :ballot_box_with_check: Site
- O site está disponível por este link: 
+ O site está disponível por este link: https://hugox96.github.io/Endeavor-Portfolio/
 
 
