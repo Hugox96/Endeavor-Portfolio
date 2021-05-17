@@ -73,4 +73,4 @@ Abaixo algumas imagens do projeto:
 A responsividade é um conceito muito importante na criação de sites, pois assim o usuário pode utilizá-lo em diferentes dispositvos e tamanhos de tela. Nesse projeto o uso de responsividade foi muito bom para o aprendizado e me possibilitou aprender bastante sobre a importância da experiência do usuário.
 Vejamos um gif abaixo mostrando como ficou:
 
-![Alt Text](https://user-images.githubusercontent.com/62472486/115297090-28360e00-a132-11eb-91b0-173626705343.gif)
+![Alt Text](https://user-images.githubusercontent.com/62472486/118557490-a2f74680-b73b-11eb-9e50-350fe5c9bc5e.gif)
